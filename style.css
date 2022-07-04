@@ -3,7 +3,7 @@ h1 {
     font-size: 50px;
 }
 
-section {
+.flex-section {
     display: flex;
     background-repeat: no-repeat;
     padding-bottom: 150px;
@@ -38,4 +38,38 @@ body {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.box-dec {
+    box-shadow: 10px 10px 10px slategray;
+}
+
+.box-border-left {
+    border-left: 5px solid red;
+}
+
+#last-sec-back {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position-y: 150px;
+
+}
+
+.box-border-right {
+    border-left: 5px solid blue;
+}
+
+.box-section-width {
+    width: 50%;
+    padding: 5%;
+    margin: 3%;
+
+}
+
+.h3-dec {
+    color: orange;
+}
+
+footer {
+    text-align: center;
 }
